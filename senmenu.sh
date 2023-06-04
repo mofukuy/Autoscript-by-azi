@@ -5,7 +5,7 @@ wget -q -O /usr/bin/infosc "https://raw.githubusercontent.com/mofukuy/Autoscript
 wget -q -O /usr/bin/pelanggar "https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/limit/pelanggar.sh" && chmod +x /usr/bin/pelanggar
 
 wget -q -O /root/status "https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/statushariini"
-wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/menu.sh"
+#wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/menu.sh"
 wget -q -O /usr/bin/delv2ray "https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/tes/delv2ray.sh"
 #wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/add-ws.sh"
 #wget -q -O /usr/bin/add-ssws "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/minacantik/add-ssws.sh"
