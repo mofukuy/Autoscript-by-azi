@@ -14,7 +14,7 @@
 
 ## For ubuntu 18.04 (minimal instalation) 
 ## Ubuntu 20.04 (Recomendation) <br>
-   <pre><code>sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/setup.sh && chmod +x setupku.sh && ./setupku.sh</code></pre>
+   <pre><code>sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/setup.sh && chmod +x setup.sh && ./setup.sh</code></pre>
    
 ## Debian 10,11  Only For First Time Installation (Update Repo) <br>
   
