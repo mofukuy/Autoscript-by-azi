@@ -303,14 +303,14 @@ service fail2ban restart 2>/dev/null
 service ipsec restart 2>/dev/null
 service xl2tpd restart 2>/dev/null
 mkdir /var/lib/crot
-wget -O /usr/bin/addl2tp https://raw.githubusercontent.com/Azigaming404/Autoscript-by-azi/main/ipsec/addl2tp.sh && chmod +x /usr/bin/addl2tp
-wget -O /usr/bin/dell2tp https://raw.githubusercontent.com/Azigaming404/Autoscript-by-azi/main/ipsec/dell2tp.sh && chmod +x /usr/bin/dell2tp
-wget -O /usr/bin/addpptp https://raw.githubusercontent.com/Azigaming404/Autoscript-by-azi/main/ipsec/addpptp.sh && chmod +x /usr/bin/addpptp
-wget -O /usr/bin/delpptp https://raw.githubusercontent.com/Azigaming404/Autoscript-by-azi/main/ipsec/delpptp.sh && chmod +x /usr/bin/delpptp
-wget -O /usr/bin/renewpptp https://raw.githubusercontent.com/Azigaming404/Autoscript-by-azi/main/ipsec/renewpptp.sh && chmod +x /usr/bin/renewpptp
-wget -O /usr/bin/renewl2tp https://raw.githubusercontent.com/Azigaming404/Autoscript-by-azi/main/ipsec/renewl2tp.sh && chmod +x /usr/bin/renewl2tp
-wget -O /var/lib/crot/data-user-l2tp "https://raw.githubusercontent.com/Azigaming404/Autoscript-by-azi/main/ipsec/l2tp-user.sh"
-wget -O /var/lib/crot/data-user-pptp "https://raw.githubusercontent.com/Azigaming404/Autoscript-by-azi/main/ipsec/pptp-user"
+wget -O /usr/bin/addl2tp https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/ipsec/addl2tp.sh && chmod +x /usr/bin/addl2tp
+wget -O /usr/bin/dell2tp https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/ipsec/dell2tp.sh && chmod +x /usr/bin/dell2tp
+wget -O /usr/bin/addpptp https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/ipsec/addpptp.sh && chmod +x /usr/bin/addpptp
+wget -O /usr/bin/delpptp https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/ipsec/delpptp.sh && chmod +x /usr/bin/delpptp
+wget -O /usr/bin/renewpptp https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/ipsec/renewpptp.sh && chmod +x /usr/bin/renewpptp
+wget -O /usr/bin/renewl2tp https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/ipsec/renewl2tp.sh && chmod +x /usr/bin/renewl2tp
+wget -O /var/lib/crot/data-user-l2tp "https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/ipsec/l2tp-user.sh"
+wget -O /var/lib/crot/data-user-pptp "https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/ipsec/pptp-user"
 chmod +x /var/lib/crot/data-user-l2tp
 chmod +x /var/lib/crot/data-user-pptp
 touch /var/lib/crot/data-user-l2tp
