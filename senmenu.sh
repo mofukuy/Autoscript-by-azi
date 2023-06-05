@@ -53,8 +53,8 @@ wget https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/autoscript
 wget https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/backup/set-br.sh
 bash set-br.sh
 wget https://raw.githubusercontent.com/mofukuy/Autoscript-by-azi/main/Themes/thema.sh
-wget https://raw.githubusercontent.com/mofukuy/CyberCHAT_BOT/main/3d.flf
-mv 3d.flf /usr/share/figlet/
+#wget https://raw.githubusercontent.com/mofukuy/CyberCHAT_BOT/main/3d.flf
+#mv 3d.flf /usr/share/figlet/
 chmod +x /usr/bin/menu
 #chmod +x /usr/bin/add-ws
 #chmod +x /usr/bin/add-ssws
